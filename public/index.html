@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>CSS/HTML Workshop with Drivy</title>
+    <style type="text/css">
+    #moncadre {
+    width:500px;
+    margin:0 auto;
+    padding:0px;
+    border:1px solid #DDD;
+    }
+</style>
   </head>
   <body>
+    <h1> WelcomeToDrivy</h1>
+     <div id="moncadre">
     <div id="car">
       <input class="model" type="text" placeholder="Car model"/>
       <input class="price-by-day" type="number" placeholder="Price by day"/>
@@ -29,5 +41,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
     <script src="drivy.js"></script>
     <script src="index.js"></script>
+    </div>
   </body>
 </html>
